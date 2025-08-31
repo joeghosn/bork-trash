@@ -1,4 +1,5 @@
 import React from "react";
+import dogshit from "../assets/dogshit.svg";
 
 export default function Borkonomics() {
   return (
@@ -76,7 +77,7 @@ export default function Borkonomics() {
 
           {/* small dog-trash doodles (no tape) */}
           <img
-            src="/src/assets/dogshit.svg"
+            src={dogshit}
             alt=""
             className="absolute -left-3 bottom-2 w-8 rotate-[10deg] opacity-90"
             aria-hidden

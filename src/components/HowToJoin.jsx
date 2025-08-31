@@ -1,4 +1,7 @@
 import React from "react";
+import dogshit from "../assets/dogshit.svg";
+import can from "../assets/can.svg";
+import borked from "../assets/borked.jpg";
 
 const steps = [
   // EXACT COPY from the second file (do not edit)
@@ -22,13 +25,13 @@ export default function HowToJoin() {
     <section id="how" className="relative">
       {/* section-level trash doodles (decor only) */}
       <img
-        src="/src/assets/dogshit.svg"
+        src={dogshit}
         alt=""
         className="pointer-events-none select-none absolute left-6 -top-4 w-10 rotate-[10deg] opacity-90"
         aria-hidden
       />
       <img
-        src="/src/assets/can.svg"
+        src={can}
         alt=""
         className="pointer-events-none select-none absolute right-8 -bottom-6 w-9 -rotate-[8deg] opacity-90"
         aria-hidden
@@ -66,7 +69,7 @@ export default function HowToJoin() {
                 {/* tiny sticker to amp trash; varies by card */}
                 {i === 0 && (
                   <img
-                    src="/src/assets/borked.jpg"
+                    src={borked}
                     alt=""
                     className="absolute -right-3 -top-5 h-10 w-10 object-cover rounded rotate-[8deg] ring-1 ring-black/20"
                     aria-hidden
@@ -74,7 +77,7 @@ export default function HowToJoin() {
                 )}
                 {i === 1 && (
                   <img
-                    src="/src/assets/dogshit.svg"
+                    src={dogshit}
                     alt=""
                     className="absolute -left-4 bottom-1 h-8 w-8 rotate-[6deg]"
                     aria-hidden
@@ -82,7 +85,7 @@ export default function HowToJoin() {
                 )}
                 {i === 2 && (
                   <img
-                    src="/src/assets/can.svg"
+                    src={can}
                     alt=""
                     className="absolute right-2 -bottom-5 h-8 w-8 -rotate-[10deg]"
                     aria-hidden

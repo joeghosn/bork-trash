@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import dogshit from "../assets/dogshit.svg";
 
 /* ===== exact copywriting from the SECOND file (do not change) ===== */
 const faqs = [
@@ -117,7 +118,7 @@ export default function FAQ() {
                       )}
                       {i === 2 && (
                         <img
-                          src="/src/assets/dogshit.svg"
+                          src={dogshit}
                           alt=""
                           className="w-5 h-5 rotate-[8deg]"
                         />

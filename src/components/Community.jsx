@@ -1,4 +1,5 @@
 import React from "react";
+import dogshit from "../assets/dogshit.svg";
 
 /**
  * COMMUNITY — Trashier layout, no tape, hero-style trash buttons.
@@ -179,11 +180,7 @@ function RoadItem({ quarter, title, desc }) {
             {title === "Bite mailman" && <BiteIcon />}
             {title === "Sniff butt" && <NoseIcon />}
             {title === "Shit in house" && (
-              <img
-                src="/src/assets/dogshit.svg"
-                alt=""
-                className="w-4 h-4 rotate-[10deg]"
-              />
+              <img src={dogshit} alt="" className="w-4 h-4 rotate-[10deg]" />
             )}
           </div>
         </div>

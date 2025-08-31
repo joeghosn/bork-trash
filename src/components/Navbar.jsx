@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import bork from "../assets/bork.jpg";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -7,11 +8,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
           <div className="w-9 h-9 rounded -rotate-6 overflow-hidden ring-2 ring-black/30">
-            <img
-              src="/src/assets/bork.jpg"
-              className="w-full h-full object-cover"
-              alt="bork"
-            />
+            <img src={bork} className="w-full h-full object-cover" alt="bork" />
           </div>
           <div className="font-hand text-2xl font-black text-ink animate-wiggle">
             $BORK

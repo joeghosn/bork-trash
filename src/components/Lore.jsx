@@ -1,4 +1,7 @@
 import React from "react";
+import borkSuit from "../assets/bork-suit.jpeg";
+import borkHat from "../assets/bork-hat.jpeg";
+import bork from "../assets/bork.jpg";
 
 export default function Lore() {
   return (
@@ -39,18 +42,18 @@ export default function Lore() {
 
           {/* doodles: dogshit + crushed can + 'banana' made from your bork image */}
           <img
-            src="/src/assets/bork-suit.jpeg"
-            alt="dog shit"
+            src={borkSuit}
+            alt="bork"
             className="absolute -left-8 bottom-0 w-14 h-14 object-cover rounded rotate-[8deg] opacity-95"
           />
           <img
-            src="/src/assets/bork-hat.jpeg"
-            alt="crushed can"
+            src={borkHat}
+            alt="bork"
             className="absolute left-1/3 -bottom-8 w-10 rotate-[15deg] opacity-85"
           />
           <img
-            src="/src/assets/bork.jpg"
-            alt="banana peel, totally"
+            src={bork}
+            alt="bork"
             className="absolute right-4 -top-6 w-14 h-14 object-cover rounded rotate-[-12deg] ring-2 ring-black/30 shadow-floof"
           />
         </div>
