@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Trash Aesthetic Helpers --- */
+:root {
+  --scribble: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><g fill='none' stroke='%23ff9900' stroke-width='5' stroke-linecap='round'><path d='M10 40 Q60 10 120 40 T230 40'/><path d='M20 120 Q60 140 90 110 T200 110'/><path d='M40 200 q50 -40 100 0 t100 0'/></g></svg>");
+  --dots: radial-gradient(rgba(0,0,0,.15) 1px, transparent 1px);
+  --paper: repeating-linear-gradient(0deg, rgba(0,0,0,.05), rgba(0,0,0,.05) 1px, transparent 1px, transparent 28px);
+}
+
+body { background: #fff8e7; }
+
+/* Bliss-style hero wallpaper with doodles */
+.hero-trash {
+  background-image: url('/src/assets/bliss.jpg'), var(--paper), var(--dots), var(--scribble);
+  background-size: cover, 100% 100%, 12px 12px, 240px 240px;
+  background-blend-mode: normal, multiply, normal, normal;
+}
+
+/* Torn paper container */
+.torn {
+  position: relative;
+  background: #fffdf6;
+  border: 1px dashed rgba(0,0,0,.25);
+}
+.torn:before, .torn:after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; height: 14px;
+  background: repeating-linear-gradient(90deg, transparent 0 8px, rgba(0,0,0,.06) 8px 9px);
+}
+.torn:before { top: -14px; }
+.torn:after { bottom: -14px; }
+
+/* Duct tape */
+.tape {
+  position: absolute; width: 120px; height: 22px;
+  background: linear-gradient(180deg, rgba(255,255,255,.8), rgba(220,220,220,.9));
+  box-shadow: 0 2px 6px rgba(0,0,0,.35);
+  transform: rotate(-6deg);
+  mix-blend-mode: multiply;
+}
+
+/* Sticky note card */
+@layer components {
+  .sticky {
+    @apply bg-banana text-ink rounded-md shadow-sticky p-4;
+    transform: rotate(-1.5deg);
+  }
+  .scribble-heading {
+    @apply font-hand text-5xl sm:text-6xl font-black;
+    text-shadow: 2px 2px 0 #fff, 4px 4px 0 rgba(0,0,0,.2);
+  }
+  .messy-link { @apply underline decoration-wavy decoration-marker underline-offset-4; }
+  .crayon { text-shadow: -1px 1px 0 #fff, 0 2px 0 #ff9900; }
+}
