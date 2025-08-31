@@ -14,7 +14,7 @@ export default function Hero() {
           {/* LEFT — text exactly from the original Hero */}
           <div>
             {/* Keep scribbly/handwritten look from the second file */}
-            <h1 className="scribble-heading text-ink">$BORK</h1>
+            {/* <h1 className="scribble-heading text-ink">$BORK</h1> */}
 
             <p className="mt-4 font-display text-lg leading-relaxed">
               $BORK – Sniffed the wrong butt and unlocked DeFi on Kasplex L2.
