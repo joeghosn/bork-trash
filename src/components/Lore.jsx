@@ -44,7 +44,7 @@ export default function Lore() {
             className="absolute -left-8 bottom-0 w-14 h-14 object-cover rounded rotate-[8deg] opacity-95"
           />
           <img
-            src="/src/assets/dogshit.svg"
+            src="/src/assets/bork-hat.jpeg"
             alt="crushed can"
             className="absolute left-1/3 -bottom-8 w-10 rotate-[15deg] opacity-85"
           />
