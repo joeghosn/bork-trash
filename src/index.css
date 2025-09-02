@@ -29,6 +29,11 @@ body {
   background: #fff8e7;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
 /* Bliss-style hero wallpaper with doodles */
 .hero-trash {
   background-image: url("/src/assets/bliss.jpg"), var(--paper), var(--dots),

@@ -16,8 +16,8 @@ export default function Hero() {
             {/* Keep scribbly/handwritten look from the second file */}
             {/* <h1 className="scribble-heading text-ink">$BORK</h1> */}
 
-            <p className="mt-4 font-display text-lg leading-relaxed">
-              $BORK – Sniffed the wrong butt and unlocked DeFi on Kasplex L2.
+            <p className="mt-4 font-clean text-3xl md:text-4xl font-semibold tracking-tight leading-snug text-ink">
+              $BORK – Sniffed the wrong butt and unlocked DeFi on Kaspa
             </p>
 
             {/* Keep the second file's sticky-note link styling, just change labels */}
