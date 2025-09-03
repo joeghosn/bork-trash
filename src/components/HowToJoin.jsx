@@ -3,7 +3,6 @@ import dogshit from "../assets/dogshit.svg";
 import bork from "../assets/bork.jpg";
 
 const steps = [
-  // EXACT COPY from the second file (do not edit)
   {
     title: "Install Wallet",
     body: "Install an EVM-compatible wallet (MetaMask).",

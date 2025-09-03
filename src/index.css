@@ -39,9 +39,9 @@ body {
   background-image: url("/src/assets/bliss.jpg"), var(--paper), var(--dots),
     var(--scribble);
   background-size: cover, 100% 100%, 12px 12px, 240px 240px;
-  background-blend-mode: normal, multiply, normal, normal;
+  background-repeat: no-repeat, repeat, repeat, repeat;
+  background-position: center top, center, center, center;
 }
-
 /* Torn paper container */
 .torn {
   position: relative;

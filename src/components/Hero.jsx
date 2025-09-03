@@ -2,25 +2,23 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="hero-trash relative pt-28 pb-24 overflow-hidden">
+    <section className="hero-trash relative overflow-hidden aspect-[16/9] md:aspect-[16/9]">
       {/* duct-tape chaos */}
       <div className="tape left-6 top-6 rotate-[8deg]" />
       <div className="tape right-12 top-4 -rotate-[12deg]" />
       <div className="tape left-1/2 bottom-8 rotate-[3deg]" />
       <div className="tape left-10 bottom-6 -rotate-[6deg]" />
 
-      <div className="mx-auto max-w-6xl px-4">
+      <div className="mx-auto max-w-6xl px-4 pt-6 md:pt-16 lg:pt-24">
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          {/* LEFT — text exactly from the original Hero */}
+          {/* LEFT — text */}
           <div>
-            {/* Keep scribbly/handwritten look from the second file */}
-            {/* <h1 className="scribble-heading text-ink">$BORK</h1> */}
+            <h1 className="scribble-heading font-clean">$BORK</h1>
 
             <p className="mt-4 font-clean text-3xl md:text-4xl font-semibold tracking-tight leading-snug text-ink">
               $BORK – Sniffed the wrong butt and unlocked DeFi on Kaspa
             </p>
 
-            {/* Keep the second file's sticky-note link styling, just change labels */}
             <div className="mt-6 flex items-center gap-4">
               <a
                 href="#borklist"
