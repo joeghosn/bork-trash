@@ -13,9 +13,11 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           {/* LEFT — text */}
           <div>
-            <h1 className="scribble-heading font-clean">$BORK</h1>
+            <h1 className="scribble-heading font-clean text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+              $BORK
+            </h1>
 
-            <p className="mt-4 font-clean text-3xl md:text-4xl font-semibold tracking-tight leading-snug text-ink">
+            <p className="mt-4 font-clean text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold tracking-tight leading-snug text-ink">
               $BORK – Sniffed the wrong butt and unlocked DeFi on Kaspa
             </p>
 
