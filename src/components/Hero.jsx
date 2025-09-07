@@ -21,25 +21,25 @@ export default function Hero() {
               $BORK – Sniffed the wrong butt and unlocked DeFi on Kaspa
             </p>
 
-            <div className="mt-6 flex items-center gap-4">
+            <div className="mt-6 flex items-center gap-3 sm:gap-4">
               <a
                 href="#borklist"
-                className="px-4 py-2 bg-trashNote text-trashInk font-hand font-bold shadow-crumple
+                className="px-3 py-1.5 sm:px-4 sm:py-2 bg-trashNote text-trashInk font-hand font-bold shadow-crumple
                border-2 border-black/40 rotate-[-3deg] -skew-x-3
                hover:bg-yellow-300 transition
                relative before:content-[''] before:absolute before:-top-2 before:-left-2
-               before:w-3 before:h-3 before:bg-trashBrown before:rounded-full"
+               before:w-2.5 before:h-2.5 before:bg-trashBrown before:rounded-full text-sm sm:text-base"
               >
                 Join the Borklist
               </a>
 
               <a
                 href="#kit"
-                className="px-4 py-2 bg-white/70 text-black font-hand font-bold shadow-crumple
+                className="px-3 py-1.5 sm:px-4 sm:py-2 bg-white/70 text-black font-hand font-bold shadow-crumple
                border-2 border-black/40 rotate-[4deg] skew-y-1
                hover:bg-white transition relative
                before:content-['x'] before:absolute before:-top-3 before:right-1
-               before:text-xs before:rotate-12 before:text-red-600"
+               before:text-[10px] sm:before:text-xs before:rotate-12 before:text-red-600 text-sm sm:text-base"
               >
                 Get $BORK (soon)
               </a>
