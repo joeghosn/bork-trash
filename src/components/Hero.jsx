@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="hero-trash relative overflow-hidden aspect-[16/9] md:aspect-[16/9]">
+    <section className="hero-trash relative overflow-hidden aspect-[16/9] md:aspect-[16/6]">
       {/* duct-tape chaos */}
       <div className="tape left-6 top-6 rotate-[8deg]" />
       <div className="tape right-12 top-4 -rotate-[12deg]" />
