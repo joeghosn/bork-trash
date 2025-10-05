@@ -54,7 +54,7 @@ export default function Community() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://x.com/"
+            href="https://x.com/BorkOnKaspa"
             className="px-4 py-2 bg-white/70 text-black font-hand font-bold shadow-crumple
                        border-2 border-black/40 rotate-[3deg] skew-y-1
                        hover:bg-white transition relative
