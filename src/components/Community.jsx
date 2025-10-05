@@ -63,19 +63,6 @@ export default function Community() {
           >
             X (Twitter)
           </a>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://discord.com/"
-            className="px-4 py-2 bg-[#ececec] text-black font-hand font-bold shadow-crumple
-             border-2 border-black/40 -rotate-[2deg] -skew-x-1
-             hover:bg-white transition relative
-             before:content-['wow'] before:absolute before:-top-3 before:left-1
-             before:text-[10px] before:rotate-6 before:text-black/70"
-          >
-            Discord
-          </a>
         </div>
 
         {/* Trashy SCRATCH TIMELINE — different layout than before; NO announcements card */}
