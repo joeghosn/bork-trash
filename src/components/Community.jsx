@@ -81,7 +81,7 @@ export default function Community() {
         {/* Trashy SCRATCH TIMELINE — different layout than before; NO announcements card */}
         <ul className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <RoadItem
-            quarter="Q1"
+            quarter="Q4"
             title="Piss on tree"
             desc="Tree goes to moon"
           />
@@ -92,7 +92,7 @@ export default function Community() {
           />
           <RoadItem quarter="Q3" title="Sniff butt" desc="So refreshing" />
           <RoadItem
-            quarter="Q4"
+            quarter="Q1"
             title="Shit in house"
             desc="Track it everywhere"
           />
