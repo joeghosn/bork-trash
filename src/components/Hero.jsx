@@ -23,7 +23,7 @@ export default function Hero() {
 
             <div className="mt-6 flex items-center gap-3 sm:gap-4">
               <a
-                href="#borklist"
+                href="https://t.me/bork_kas"
                 className="px-3 py-1.5 sm:px-4 sm:py-2 bg-trashNote text-trashInk font-hand font-bold shadow-crumple
                border-2 border-black/40 rotate-[-3deg] -skew-x-3
                hover:bg-yellow-300 transition

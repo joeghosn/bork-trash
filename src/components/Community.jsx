@@ -41,7 +41,7 @@ export default function Community() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://t.me/"
+            href="https://t.me/bork_kas"
             className="px-4 py-2 bg-trashNote text-trashInk font-hand font-bold shadow-crumple
                        border-2 border-black/40 rotate-[-3deg] -skew-x-3
                        hover:brightness-110 transition relative
