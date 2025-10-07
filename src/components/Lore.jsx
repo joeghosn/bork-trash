@@ -18,7 +18,7 @@ export default function Lore() {
           </p>
 
           <ul className="mt-5 space-y-3 list-disc pl-6 font-display">
-            <li>• Sniffed the wrong butt and unlocked DeFi on Kasplex L2.</li>
+            <li>• Sniffed the wrong butt and unlocked DeFi on Kaspa.</li>
             <li>• Pissed on Satoshi’s whitepaper.</li>
             <li>• Shit in Vitalik’s living room.</li>
           </ul>

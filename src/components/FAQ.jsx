@@ -5,7 +5,7 @@ import dogshit from "../assets/dogshit.svg";
 const faqs = [
   {
     q: "What is $BORK?",
-    a: "Sniffed the wrong butt and unlocked DeFi on Kasplex L2.",
+    a: "Sniffed the wrong butt and unlocked DeFi on Kaspa.",
   },
   { q: "Supply?", a: "69,420,000,000 tokens." },
   { q: "Taxes?", a: "“0% tax because bork doesn’t understand math." },

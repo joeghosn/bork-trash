@@ -41,7 +41,7 @@ export default function Hero() {
                before:content-['x'] before:absolute before:-top-3 before:right-1
                before:text-[10px] sm:before:text-xs before:rotate-12 before:text-red-600 text-sm sm:text-base"
               >
-                Get $BORK (soon)
+                Get $BORK
               </a>
             </div>
           </div>
