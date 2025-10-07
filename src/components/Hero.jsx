@@ -34,7 +34,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="#kit"
+                href="https://app.moonbound.gg/token/0xaa4be785F78D11F8ACdC926B2E9cA8d460fC7dF1"
                 className="px-3 py-1.5 sm:px-4 sm:py-2 bg-white/70 text-black font-hand font-bold shadow-crumple
                border-2 border-black/40 rotate-[4deg] skew-y-1
                hover:bg-white transition relative
