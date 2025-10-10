@@ -9,12 +9,34 @@ const steps = [
   },
   { title: "Fund with KAS", body: "Fund the wallet with KAS." },
   {
-    title: "Wait for Launch",
-    body: "Wait for launch info (CA) → follow the socials.",
+    title: "Swap for BORK",
+    body: (
+      <>
+        Swap KAS → BORK on{" "}
+        <a
+          href="https://app.moonbound.gg/token/0xaa4be785F78D11F8ACdC926B2E9cA8d460fC7dF1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-primary font-bold"
+        >
+          Moonbound
+        </a>{" "}
+        or{" "}
+        <a
+          href="https://app.zealousswap.com/swap?from=KAS&to=0xaa4be785F78D11F8ACdC926B2E9cA8d460fC7dF1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-primary font-bold"
+        >
+          ZealousSwap
+        </a>
+        .
+      </>
+    ),
   },
   {
-    title: "Swap on Moonbound",
-    body: "Connect wallet to Moonbound and swap KAS → BORK.",
+    title: "Join the Community",
+    body: "Follow the socials and join the BORK community.",
   },
 ];
 
